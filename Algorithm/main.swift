@@ -7,5 +7,16 @@
 
 import Foundation
 
-print("Hello, World!")
+var arr = [7,2,4,6,8,9,1,33,56]
 
+
+for i in 1..<arr.count {
+    var currentIndex = i
+    
+    while currentIndex > 0 && arr[currentIndex] < arr[currentIndex - 1] {
+        arr.swapAt(currentIndex, currentIndex - 1)
+        currentIndex -= 1
+    }
+}
+
+print(arr)
