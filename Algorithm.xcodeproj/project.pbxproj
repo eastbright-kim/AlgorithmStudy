@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB6B8FA226961A3A0016DADD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B8FA126961A3A0016DADD /* main.swift */; };
+		DB315FEB269B32AA00C0112A /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB315FEA269B32AA00C0112A /* SelectionSort.swift */; };
+		DB6B8FA226961A3A0016DADD /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B8FA126961A3A0016DADD /* InsertionSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DB315FEA269B32AA00C0112A /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
 		DB6B8F9E26961A390016DADD /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB6B8FA126961A3A0016DADD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DB6B8FA126961A3A0016DADD /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 		DB6B8FA026961A390016DADD /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				DB6B8FA126961A3A0016DADD /* main.swift */,
+				DB6B8FA126961A3A0016DADD /* InsertionSort.swift */,
+				DB315FEA269B32AA00C0112A /* SelectionSort.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -119,7 +122,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB6B8FA226961A3A0016DADD /* main.swift in Sources */,
+				DB315FEB269B32AA00C0112A /* SelectionSort.swift in Sources */,
+				DB6B8FA226961A3A0016DADD /* InsertionSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
